@@ -1,7 +1,27 @@
 aid: zauber
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zauber.png
 name: Zauber
-description: Zauber is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zauber is an AI agent platform purpose-built for sea and air freight forwarding
+  operations. Freight forwarders describe their processes in plain language and Zauber's
+  AI agents execute them consistently across global operations, automating rate and
+  booking workflows with exception handling, deploying global workflows with local
+  execution, and giving operators real-time operational visibility into conversion
+  rates, response times, and exception patterns. The platform integrates with existing
+  systems including Office 365, CargoWise One, carrier portals, and proprietary tooling.
+  Zauber is a portfolio company of Point Nine. No public API, developer portal, or
+  developer documentation is currently published; this profile captures the company's
+  identity and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/zauber/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Freight Forwarding
+- Logistics
+- AI Agents
+- Supply Chain
+- Automation
+- Sea Freight
+- Air Freight
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://gozauber.com
+- type: Support
+  url: https://gozauber.com/contact
+- type: TrustCenter
+  url: security/zauber-trust-center.yml
+- type: Compliance
+  url: https://trust.gozauber.com/
+- type: DomainSecurity
+  url: security/zauber-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
